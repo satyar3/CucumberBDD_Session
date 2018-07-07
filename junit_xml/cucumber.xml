@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0.207006">
+<testcase classname="Free CRM App Test" name="Free CRM App Test 1st" time="0.205615">
+<system-out><![CDATA[Given user is on deal page..................................................passed
+When user fills deal form...................................................passed
+Then deal is created........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM App Test" name="Free CRM App Test 2nd" time="0.000489">
+<system-out><![CDATA[Given user is on deal page..................................................passed
+When user fills deal form...................................................passed
+Then deal is created........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM App Test" name="Free CRM App Test 3rd" time="0.000902">
+<system-out><![CDATA[Given user is on deal page..................................................passed
+When user fills deal form...................................................passed
+Then deal is created........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
