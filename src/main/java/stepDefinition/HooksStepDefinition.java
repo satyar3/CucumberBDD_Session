@@ -1,5 +1,7 @@
 package stepDefinition;
 
+import java.io.File;
+
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
@@ -42,4 +44,22 @@ public class HooksStepDefinition {
 
 	    
 	}
+	
+	/*public void deleteClassFile() {
+		try {
+
+			File file = new File("\\C:\\Back Up\\Project Work\\Learning Stuffs\\Eclipse Oxygen\\CucumberBDD_Session\\target\\classes\\stepDefinition\\*.class");
+
+			if (file.delete()) {
+				System.out.println(file.getName() + " is deleted!");
+			} else {
+				System.out.println("Delete operation is failed.");
+			}
+
+		} catch (Exception e) {
+
+			e.printStackTrace();
+
+		}
+	}*/
 }
