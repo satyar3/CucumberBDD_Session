@@ -42,6 +42,7 @@ public class DealsStepDefinition
 	{
 
 		List<List<String>> data = credentials.raw();
+		
 		driver.findElement(By.name("username")).sendKeys(data.get(0).get(0));
 		driver.findElement(By.name("password")).sendKeys(data.get(0).get(1));
 
